@@ -1,71 +1,80 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-.main-header {
+.header-zoning {
   width: 100%;
-  background-color: white;
-  border-bottom: 1px solid white;
-  padding: 15px 40px;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-.logo a {
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
-  text-decoration: none;
-}
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 25px; 
-  align-items: center;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
-  transition: color 0.2s;
-}
-.nav-links a.active {
-  color: blue;
-  font-weight: bold;
-  border-bottom: 2px solid ;
-  padding-bottom: 5px;
-}
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.search-icon {
-  color: black;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-.btn-join {
-  background-color: blue;
-  color: white;
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 8px 18px;
-  border-radius: 8px;
+  height: 50px;
+  background-color: beige;
   text-align: center;
+}
+.header-part {
   display: inline-block;
-  line-height: 1.2;
+  vertical-align: middle;
+  height: 50px;
+  line-height: 50px;
+  color: brown;
+  font-weight: bold;
+  box-sizing: border-box;
 }
+.logo-part {
+  width: 25%;
+  background-color: white;
+}
+.nav-part {
+    width: 49%;
+    background-color: pink;
+}
+.actions-part{
+    width: 25%;
+    background-color: rgb(158, 140, 158);
+}
+.hero {
+  background: beige;
+  padding: 20px;
 
-.btn-join:hover {
-  background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
+.hero-left {
+  background: pink;
+  height: 300px;
+}
+.hero-right {
+  background: palevioletred;
+  height: 300px;
+}
+.stats {
+  background: beige;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+.stat {
+  background: white;
+  height: 40px;
+}
+.campus {
+  background: beige;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.campus-left {
+  background: blue;
+  height: 300px;
+}
+.campus-right {
+  background: pink;
+  height: 300px;
+}
+.states {
+  background: beige;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+.stat {
+  background:white ;
+  height: 40px;
