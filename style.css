@@ -161,7 +161,7 @@ header-actions .search-btn,
 .btn-outline {
     display: inline-block;
     background-color: transparent;
-    border: 1px solid #444;
+    border: 1px solid rgb(64, 52, 52);
     color: white;
     padding: 14px 28px;
     border-radius: 8px;
@@ -213,4 +213,67 @@ header-actions .search-btn,
 .community-text strong {
     display: block;
     font-weight: 600;
+}
+
+
+.stats-section {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    white-space: nowrap; 
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.stat-item {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    white-space: normal;
+}
+
+.stat-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+    color: blue;
+    margin-right: 10px;
+}
+
+
+.stat-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stat-number {
+    display: block;
+    font-size: 22px;
+    font-weight: 800;
+    color: black; 
+    line-height: 2;
+    font-family: sans-serif;
+}
+
+.stat-label {
+    display: block;
+    font-size: 18px;
+    color: rgb(80, 71, 71); 
+    margin-top: 6px;
+    font-family: sans-serif;
+}
+
+.stat-divider {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 30px;
+    background-color: white;
+    margin: 0 50px;
+}
+.stat-divider.highlight {
+    width: 3px;
+    background-color: black;
+    border-radius: 2px;
 }
