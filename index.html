@@ -1,38 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouCode</title>
+    <title>YouCode - Campus Life</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <header class ="header-zoning">
-        <div class="header-part logo-part">Logo</div>
-        <nav class="header-part nav-part">Navigation</nav>
-        <div class="header-part actions-part">Button</div>
-</header>
 </head>
 <body>
+
+    <header class="header">
+        <div class="logo">
+            <h2>[YouCode]</h2>
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="active">Accueil</a>
+            <a href="#">Campus</a>
+            <a href="#">Clubs & activités</a>
+            <a href="#">Événements</a>
+            <a href="#">Conseils aux nouveaux</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <a href="#" class="btn-join">Rejoindre l'aventure</a>
+        </div>
+    </header>
+
     <section class="hero">
-    <div class="hero-left"></div>
-    <div class="hero-right"></div>
+        <div class="hero-left">
+            <h1 class="hero-title">
+                CAMPUS<br>
+                <span>LIFE</span> <span class="decor-icon">≈</span>
+            </h1>
+            <p class="hero-subtitle">Vie étudiante à YouCode</p>
+            <p class="hero-desc">
+                Découvre un environnement d'apprentissage unique,<br>
+                des rencontres inspirantes et une communauté<br>
+                qui code le futur avec toi.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#" class="btn-blue">Découvrir le campus &rarr;</a>
+                <a href="#" class="btn-outline"><i class="fa-solid fa-border-all"></i> Voir les événements</a>
+            </div>
+
+            <div class="community-box">
+                <div class="avatars">
+                    <span class="avatar">A</span>
+                    <span class="avatar">S</span>
+                    <span class="avatar">Y</span>
+                    <span class="avatar">M</span>
+                </div>
+                <div class="community-text">
+                    <strong>Une communauté</strong>
+                    <span>de +1000 apprenants</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-right">
+            <img src="images/campus-life.png" alt="Campus Life">
+            
+            <div class="badge-bottom-right">
+                PLUS<br>
+                QU'UNE ÉCOLE,<br>
+                UNE COMMUNAUTÉ<br>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+        </div>
+
     </section>
-    <section class="stats">
-    <div class="stat"></div>
-    <div class="stat"></div>
-    <div class="stat"></div>
-    <div class="stat"></div>
-    </section>
-    <section class = "campus">
-    <div class = "campus-left"></div>
-    <div class = "campus-right"></div>
-    </section>
-    <section class="states">
-    <div class="stat"></div>
-    <div class="stat"></div>
-    <div class="stat"></div>
-    <div class="stat"></div>
-    <div class="stat"></div>
-    <div class="stat"></div>
-    </section>
+
 </body>
 </html>
